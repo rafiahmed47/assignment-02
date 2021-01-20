@@ -1,4 +1,60 @@
+h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+/* nav section start */
+.header{
+    background-color: #FFF9F4;
+    /* height: 650px; */
+}
+/* nav section end */
 
-.navbar-brand img{
-    width: 250px;
+ /* Banner start  */
+.banner-card-body{
+    border: 0px;
+    background-color:#FFF9F4;
+}
+ /* Banner end  */
+/* card start*/
+.shoes-card{
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .img-height{
+    height: 350px;
+    background-color: #C8C8C8;
+    border-radius: 10px;
+}
+.imgdiv {
+    margin: 10px;
+}
+.card-footer{
+    border:0px;
+    background-color: white;
+}
+/* card end*/
+/* perfectfit section start*/
+ /* .perfectfit-section{
+     height: 600px;
+    position: relative;top:150px;
+}  */
+ .p-card{
+    border: 0px;
+    box-shadow: 20px 31px 71px #b9a3a3;
+    padding: 15px;
+    border-radius: 10px;
+} 
+/* perfectfit section end*/
+.footer-bg{
+    background-color: #e258ad5b;
+}
+/* resposive part */
+@media only screen and (max-width: 600px){
+    .nav-ban{
+        width: 100%;
+        height: 100px;
+    }
+    .banner-card-col{
+        background-color: #FFF9F4;
+    }
 }
